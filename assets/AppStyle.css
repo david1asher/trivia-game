@@ -1,0 +1,63 @@
+﻿/*#region elements at new online app*/
+
+.appTopHeader { 
+    width: 40%; display: block; white-space: nowrap; background-color: #F5F5F5;
+    margin: 0 auto; text-align: center; vertical-align: top;
+}
+    .appTopHeader #appLogo {
+        width: 120px;
+        margin: 15px 15%;
+        text-align: center;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+
+.base_master .top_header_extra img.app_header_logo { 
+    display: inline-block; vertical-align: bottom;
+    width: 90%; padding: 0 0 10px 0;
+}
+
+#appOptionsIcon1  { width: 20%; float: none !important; margin-right: 0 !important; display: inline-block; vertical-align: top; }
+#appOptionsIcon1 > img { 
+    width: 40%; padding: 20% 0 0 0; margin-right: -4%;
+}
+#appHomeIcon1 { width: 20%; display: inline-block; vertical-align: top; }
+#appHomeIcon1 > img { width: 40%; padding: 20% 0 0 0; }
+
+
+.app_header_line { display: table; height: 5px; clear: both; width: 100%; }
+.app_header_line > div { display: table-cell; width: 33%; }
+.app_hr_blue { background-color: #3982bf; }
+.app_hr_green { background-color: #6c9936; }
+.app_hr_orange { background-color: #e06c1d; }
+.app_header_line_menu { width: 100%; }
+
+#divSideMenu { margin-right: -100%; }
+.side-menu { 
+    font-family: 'Open Sans Hebrew'; background-color: #505050; border: 1px solid #FFFFFF; 
+    position: absolute; top: 0; right: 0; width: 80%; height: 100%; z-index: 100001; text-align: right; outline: 0;
+}
+
+.menu-item-closed { 
+    font-family: 'Open Sans Hebrew'; font-size: 16px; color: #FFFFFF; 
+    padding: 8px 8vw; border-bottom: 1px solid #FFFFFF; 
+    height: 40px; width: 100%; vertical-align: middle; display: block;
+}
+.menu-item-closed span { margin-top: 5px; display: block; }
+.menu-item-closed a { color: #FFFFFF; display: block; }
+.menu-item-closed.title { font-family: 'Open Sans Hebrew'; font-size: 18px; color: #FFFFFF; height: 50px; }
+
+.unclickable-dark-screen { 
+    position: absolute; top: 0; right: 0; z-index: 900; height: 100%; width: 100%; background-color: rgba(0,0,0,0.3);
+}
+
+.AppTopHeaderNoRightMenu { width: 100% !important; overflow-x: hidden; }
+.AppTopHeaderNoRightMenu .top_container { width: 100% !important; display:flex; justify-content:space-between}
+.AppTopHeaderNoRightMenu .top_container > div { padding-top: 8px; }
+.AppTopHeaderNoRightMenu .app_header_logo { width: 90% !important; padding: 0 0 5px 0; }
+.AppTopHeaderNoRightMenu #appOptionsIcon1 img { display: none; }
+.AppTopHeaderNoRightMenu #appHomeIcon1 img { margin-left: 15px; }
+
+/*#endregion elements at new online app*/
+
